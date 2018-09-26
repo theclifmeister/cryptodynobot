@@ -4,7 +4,7 @@ const scene = new Scene('welcome');
 
 const WITHDRAW_TEXT = 'Withdraw';
 const DEPOSIT_TEXT = 'Deposit';
-const BALANCE_TEXT = 'Balance';
+const BALANCE_TEXT = 'Balance 💰';
 const HELP_TEXT = 'Help';
 
 scene.enter(ctx => {
@@ -19,6 +19,9 @@ scene.enter(ctx => {
 
 scene.hears(WITHDRAW_TEXT, ctx => ctx.scene.enter('withdraw'));
 scene.hears(DEPOSIT_TEXT, ctx => ctx.scene.enter('deposit'));
+scene.hears(BALANCE_TEXT, ctx => {
+  ctx.replyWithHTML('Your current balance is <b>12.4 ETH</b> where <b>0.4 ETH</b> is actively used in a fund.')
+});
 
 scene.leave(ctx => {});
 

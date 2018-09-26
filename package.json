@@ -18,11 +18,8 @@
   },
   "homepage": "https://github.com/roboqo/roboqobot#readme",
   "dependencies": {
+    "is-ethereum-address": "^1.0.2",
     "nedb": "^1.8.0",
     "telegraf": "^3.24.0"
-  },
-  "devDependencies": {
-    "tsc": "^1.20150623.0",
-    "typescript": "^3.0.3"
   }
 }
