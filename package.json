@@ -1,0 +1,27 @@
+{
+  "name": "roboqobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roboqo/roboqobot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roboqo/roboqobot/issues"
+  },
+  "homepage": "https://github.com/roboqo/roboqobot#readme",
+  "dependencies": {
+    "telegraf": "^3.24.0"
+  },
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.0.3"
+  }
+}

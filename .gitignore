@@ -1,0 +1,4 @@
+dist/
+node_modules/
+environment.ps1
+package-lock.json
