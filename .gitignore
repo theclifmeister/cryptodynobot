@@ -1,4 +1,5 @@
 dist/
 node_modules/
+store/
 environment.ps1
 package-lock.json
