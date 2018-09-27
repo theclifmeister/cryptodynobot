@@ -19,7 +19,7 @@ scene.enter(async ctx => {
   await delay(500);
   ctx.reply('This address will change on each deposit because of security reasons.');
   await delay(500);
-  ctx.replyWithMarkup('Please only send from an ethereum wallet, see https://ethereum.org for extra instructions.');
+  ctx.replyWithHTML('Please only send from an ethereum wallet, see https://ethereum.org for extra instructions.');
 });
 
 scene.hears(CANCEL_TEXT, ctx => ctx.scene.enter('welcome'));
